@@ -23,5 +23,5 @@ For each test case, print the rearranged version of array a which satisfies give
 ## Solution
 First, sort the array in Ascending order.
 Notice a statement on the problem.
->*It's always possible to find such rearrangement.*
+> *It's always possible to find such rearrangement.*
 So it has to work for any kind of input. To achieve this, we can take the middle index as pivot and take numbers from both side one by one i.e: take one index from left, then one from right, next from left and so on.Choosing the pivot, we have to make sure it doesn't end with taking consequtive index from same side. This way, the adj difference is always greater or equal to previous one.
