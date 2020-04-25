@@ -22,5 +22,4 @@ For each test case, print the rearranged version of array a which satisfies give
 
 ## Solution
 Notice a statement on the problem.
->It's always possible to find such rearrangement.
-It's an adhoc solution
+>*It's always possible to find such rearrangement.*
