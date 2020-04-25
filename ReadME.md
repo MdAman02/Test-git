@@ -5,7 +5,7 @@
 ### Statement
 You have array of *n* numbers *a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub>*.
 
-Rearrange these numbers to satisfy *|a<sub>1</sub>−a<sub>2</sub>|≤|a<sub>2</sub>−a<sub>3</sub>|≤…≤|a<sub>n−1</sub>−a<sub>n</sub>|*, where |x| denotes absolute value of x. It's always possible to find such rearrangement.
+Rearrange these numbers to satisfy *|a<sub>1</sub>−a<sub>2</sub>| ≤ |a<sub>2</sub>−a<sub>3</sub>| ≤…≤ |a<sub>n−1</sub>−a<sub>n</sub>|*, where |x| denotes absolute value of x. It's always possible to find such rearrangement.
 
 Note that all numbers in *a* are not necessarily different. In other words, some numbers of *a* may be same.
 
@@ -15,12 +15,12 @@ The first line contains a single integer *t (1 ≤ t ≤ 10<sup>4</sup>)* — th
 
 The first line of each test case contains single integer *n (3 ≤ n ≤ 10<sup>5</sup>)* — the length of array *a*. It is guaranteed that the sum of values of *n* over all test cases in the input does not exceed 105.
 
-The second line of each test case contains *n* integers *a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub> *(−10<sup>9</sup>≤a<sub>i</sub>≤10<sup>9</sup>)*.
+The second line of each test case contains *n* integers *a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub> *(−10<sup>9</sup>≤a<sub>i</sub> ≤ 10<sup>9</sup>)*.
 
 #### Output
 For each test case, print the rearranged version of array a which satisfies given condition. If there are multiple valid rearrangements, print any of them.
 
-##Solution
+## Solution
 Notice a statement on the problem.
 >It's always possible to find such rearrangement.
 It's an adhoc solution
