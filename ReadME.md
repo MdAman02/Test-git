@@ -14,6 +14,30 @@ For every state; *ith* lake and *time*, the optimal number is determined by the 
 
 ![imge](https://www.HostMath.com/Show.aspx?Code=%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mfrac>
+    <mrow>
+      <mo>&#x2212;<!-- − --></mo>
+      <mi>b</mi>
+      <mo>&#x00B1;<!-- ± --></mo>
+      <msqrt>
+        <msup>
+          <mi>b</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>4</mn>
+        <mi>a</mi>
+        <mi>c</mi>
+      </msqrt>
+    </mrow>
+    <mrow>
+      <mn>2</mn>
+      <mi>a</mi>
+    </mrow>
+  </mfrac>
+</math>
+
 Where,
 * *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
 * *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
