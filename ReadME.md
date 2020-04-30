@@ -11,7 +11,7 @@ For every state *lake* no. and *time*, the optimal number is determined by:
 
 $ \sum_{i=0}^time $ 
 
-![sum](https://latex.codecogs.com/svg.latex?%5C%3A%20%5Cprod%20%5Csum%20%5Csum%20%5Csum)
+![sum](https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D)
 
 
 First, sort the array in Ascending order.
