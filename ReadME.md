@@ -11,7 +11,7 @@ For every state *lake* no. and *time*, the optimal number is determined by:
 
 $ \sum_{i=0}^time $ 
 
-![eq]((https://octodex.github.com/images/yaktocat.png))
+![eq](https://octodex.github.com/images/yaktocat.png)
 
 
 First, sort the array in Ascending order.
