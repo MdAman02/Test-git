@@ -7,7 +7,7 @@
 ## Solution
 Can be done with a *Dynamic Programming* solution. Taking the **current lake position** and remaining **time** to be spent as two **states** of **DP**. 
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
-For every state regarding **ith** lake and **t** time; the optimal number is determined by the recursive formula:
+For every state regarding **i-th** lake and **t** time; the optimal number is determined by the recursive formula:
 
 ![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](http://www.sciweavers.org/download/Tex2Img_1588278086.jpg)
 
@@ -18,5 +18,7 @@ Where,
 Applying some math simplification, we can get:
 
 ![g_{i,k}\ =\ k*f_{i}\ -\ b_{i}*\frac{(k-1)*k}{2}](http://www.sciweavers.org/download/Tex2Img_1588277979.jpg)
+
 	* *f<sub>i</sub>* - number of fish expected in initial 5 mins
+	
 	* *d<sub>i</sub>* - reduction in every 5 mins
