@@ -9,7 +9,7 @@ Can be done with a **Dynamic Programming** solution. Taking the *current lake po
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state *lake* no. and *time*, the optimal number is determined by:
 
-$\sum_{i=0}^time$ 
+$ \sum_{i=0}^time $ 
 
 First, sort the array in Ascending order.
 Notice a statement on the problem:
