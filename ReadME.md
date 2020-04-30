@@ -17,7 +17,6 @@ Where,
 Applying some math simplification, we can get:
 
 ![g_{i,k}\ =\ k*f_{i}\ -\ b_{i}*\frac{(k-1)*k}{2}](http://www.sciweavers.org/download/Tex2Img_1588277979.jpg)
-
 Where,
 * *f<sub>i</sub>* - number of fish expected in initial 5 mins
 
