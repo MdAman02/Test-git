@@ -9,16 +9,15 @@ Can be done with a **Dynamic Programming** solution. Taking the *current lake po
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state regarding *ith* lake and *t* time; the optimal number is determined by the recursive formula:
 
-<img src="http://www.sciweavers.org/download/Tex2Img_1588276883.jpg" align="center" border="0" alt=" \sqrt{ab} " width="44" height="26" />
-
-![img](http://www.sciweavers.org/download/Tex2Img_1588276883.jpg)
+![dp](http://www.sciweavers.org/download/Tex2Img_1588278086.jpg)
 
 Where,
-* *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
+* *DP<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
 * *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
 
 Applying some simplification, we can get:
 
+![catchamount](http://www.sciweavers.org/download/Tex2Img_1588277979.jpg)
 
 First, sort the array in Ascending order.
 Notice a statement on the problem:
