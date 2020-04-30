@@ -11,6 +11,8 @@ For every state regarding *ith* lake and *t* time; the optimal number is determi
 
 <img src="http://www.sciweavers.org/download/Tex2Img_1588276883.jpg" align="center" border="0" alt=" \sqrt{ab} " width="44" height="26" />
 
+![img](http://www.sciweavers.org/download/Tex2Img_1588276883.jpg)
+
 Where,
 * *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
 * *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
