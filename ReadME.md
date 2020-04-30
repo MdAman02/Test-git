@@ -11,9 +11,8 @@ For every state *lake* no. and *time*, the optimal number is determined by:
 
 $ \sum_{i=0}^time $ 
 
-![](<a href="https://www.codecogs.com/eqnedit.php?latex=\:&space;\prod" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\:&space;\prod" title="\: \prod" /></a> )
+![eq](<img src="https://latex.codecogs.com/gif.latex?\:&space;\prod" title="\: \prod" />)
 
-![equation](http://lightoj.com/volume_showproblem.php?problem=1106)
 
 First, sort the array in Ascending order.
 Notice a statement on the problem:
