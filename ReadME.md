@@ -11,6 +11,8 @@ For every state *lake* no. and *time*, the optimal number is determined by:
 
 $ \sum_{i=0}^time $ 
 
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+
 First, sort the array in Ascending order.
 Notice a statement on the problem:
 > *It's always possible to find such rearrangement.*
