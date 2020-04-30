@@ -7,12 +7,13 @@
 ## Solution
 Can be done with a **Dynamic Programming** solution. Taking the *current lake position* and remaining *time* to be spent as two **states** of **DP**. 
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
-For every state *lake* no. and *time*, the optimal number is determined by:
+For every state; *ith* lake and *time*, the optimal number is determined by the recursive formula:
 
-$ \sum_{i=0}^time $ 
+![formula](https://bit.ly/35n1Xhd)
 
-![sum](http://www.sciweavers.org/tex2img.php?eq=%20%5Cunderline%7Bab%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
+Where,
+* *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
+* *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
 
 First, sort the array in Ascending order.
 Notice a statement on the problem:
