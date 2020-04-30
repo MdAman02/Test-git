@@ -16,8 +16,6 @@ For every state; *ith* lake and *time*, the optimal number is determined by the 
 ![imge](http://www.sciweavers.org/tex2img.php?eq=%20%5Csqrt%7Bab%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Csqrt%7Bab%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \sqrt{ab} " width="44" height="26" />
-
 Where,
 * *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
 * *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
