@@ -12,6 +12,8 @@ For every state; *ith* lake and *time*, the optimal number is determined by the 
 ![formula](http://www.sciweavers.org/tex2img.php?eq=f_%7Bi%2Ct%7D%5C%20%3D%5C%20%5Cmax_%7Bk%3D1%7D%5E%7Bt%7D%5C%20%28%5C%20g_%7Bi%2Ck%7D%5C%20%2B%5C%20f_%7Bi%2Ct-k-travel%5C_time%7D%5C%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 ![img](http://www.sciweavers.org/tex2img.php?eq=f_%7Bi%2Ct%7D%5C%20%3D%5C%20%5Cmax_%7Bk%3D1%7D%5E%7Bt%7D%5C%20%28%5C%20g_%7Bi%2Ck%7D%5C%20%2B%5C%20f_%7Bi%2Ct-k-travel%5C_time%7D%5C%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
+![imge](https://www.HostMath.com/Show.aspx?Code=%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
 Where,
 * *f<sub>i,t</sub>* denotes - *maximum number of fish caught arriving ith lake with t time remaining*
 * *g<sub>i,k</sub>* denotes - *number of fish to be caught at ith lake given k time*
