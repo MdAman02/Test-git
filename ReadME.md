@@ -8,7 +8,8 @@
 Can be done with a **Dynamic Programming** solution. Taking the *current lake position* and remaining *time* to be spent as two **states** of **DP**. 
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state *lake* no. and *time*, the optimal number is determined by:
-$\f_{lake,time} = sum_{i=0}^time g_lake,i + f_{lake-1,time-spent}$ 
+
+$f_{lake,time} = sum_{i=0}^time g_lake,i + f_{lake-1,time-spent}$ 
 
 First, sort the array in Ascending order.
 Notice a statement on the problem:
