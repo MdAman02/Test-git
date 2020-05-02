@@ -11,8 +11,7 @@ For every state regarding **i-th** lake and **t** time; the optimal number is de
 ![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](/resources/eqn.jpg)
 <div style="display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+  margin-right: auto">
     <img src="resources/eqn.jpg" alt="DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )"/>
 </div>
 
