@@ -9,6 +9,9 @@ Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state regarding **i-th** lake and **t** time; the optimal number is determined by the recursive formula:
 
 ![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](/resources/eqn.jpg)
+<div style="text-align:center">
+    <img src="Resources/Images/eqn1.jpg" alt="DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )"/>
+</div>
 
 Where,
 * *DP<sub>i,t</sub>* denotes  -  *maximum number of fish caught arriving **ith** lake with **t** time remaining*
