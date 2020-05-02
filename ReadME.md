@@ -10,6 +10,8 @@ For every state regarding **i-th** lake and **t** time; the optimal number is de
 
 ![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](http://www.sciweavers.org/download/Tex2Img_1588278086.jpg)
 
+<img src="http://latex.codecogs.com/gif.latex?1+sin(x)" border="0"/>
+
 Where,
 * *DP<sub>i,t</sub>* denotes  -  *maximum number of fish caught arriving **ith** lake with **t** time remaining*
 * *g<sub>i,k</sub>* denotes  -  *number of fish to be caught at **i-th** lake given **k** time*
