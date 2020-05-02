@@ -8,7 +8,7 @@ Can be done with a *Dynamic Programming* solution. Taking the **current lake pos
 Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state regarding **i-th** lake and **t** time; the optimal number is determined by the recursive formula:
 
-![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](http://www.sciweavers.org/download/Tex2Img_1588278086.jpg)
+![DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )](resources/eqn.jpg)
 
 <img src="DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )" border="0"/>
 
